@@ -2,6 +2,7 @@
     "routes": 
     [
       { "src": "/", "dest": "/ZERO/hero.html" },
-      { "src": "/ZERO/(.*)", "dest": "/ZERO/$1" }
+      { "src": "/ZERO/(.*)", "dest": "/ZERO/$1" },
+      { "src": "/(.*.css)", "dest": "/$1" }
     ]
 }
