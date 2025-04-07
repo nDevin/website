@@ -1,0 +1,7 @@
+{
+    "routes": 
+    [
+      { "src": "/", "dest": "/ZERO/hero.html" },
+      { "src": "/ZERO/(.*)", "dest": "/ZERO/$1" }
+    ]
+}
